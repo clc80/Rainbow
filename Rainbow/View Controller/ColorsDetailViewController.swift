@@ -15,8 +15,9 @@ class ColorsDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        updateViews()
     }
+    
     func updateViews() {
         if let cellColor = cellColor {
             title = cellColor.name

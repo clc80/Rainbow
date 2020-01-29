@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="off-eh-bGr" kind="show" id="KHG-uU-823"/>
+                                    <segue destination="off-eh-bGr" kind="show" identifier="ToDetailViewController" id="KHG-uU-823"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
