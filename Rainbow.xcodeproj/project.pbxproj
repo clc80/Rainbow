@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3A9762FA23E12CE2003A89A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762F923E12CE2003A89A7 /* AppDelegate.swift */; };
 		3A9762FC23E12CE2003A89A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762FB23E12CE2003A89A7 /* SceneDelegate.swift */; };
-		3A9762FE23E12CE2003A89A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9762FD23E12CE2003A89A7 /* ViewController.swift */; };
 		3A97630123E12CE2003A89A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9762FF23E12CE2003A89A7 /* Main.storyboard */; };
 		3A97630323E12CE2003A89A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A97630223E12CE2003A89A7 /* Assets.xcassets */; };
 		3A97630623E12CE2003A89A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A97630423E12CE2003A89A7 /* LaunchScreen.storyboard */; };
+		3A97631223E12EEE003A89A7 /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97631123E12EEE003A89A7 /* ColorsTableViewController.swift */; };
+		3A97631423E12F4C003A89A7 /* ColorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97631323E12F4C003A89A7 /* ColorsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A9762F623E12CE2003A89A7 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9762F923E12CE2003A89A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9762FB23E12CE2003A89A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A9762FD23E12CE2003A89A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A97630023E12CE2003A89A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A97630223E12CE2003A89A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A97630523E12CE2003A89A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A97630723E12CE2003A89A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A97631123E12EEE003A89A7 /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		3A97631323E12F4C003A89A7 /* ColorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,8 @@
 		3A97630E23E12D08003A89A7 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3A9762FD23E12CE2003A89A7 /* ViewController.swift */,
+				3A97631123E12EEE003A89A7 /* ColorsTableViewController.swift */,
+				3A97631323E12F4C003A89A7 /* ColorsDetailViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -170,9 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9762FE23E12CE2003A89A7 /* ViewController.swift in Sources */,
+				3A97631423E12F4C003A89A7 /* ColorsDetailViewController.swift in Sources */,
 				3A9762FA23E12CE2003A89A7 /* AppDelegate.swift in Sources */,
 				3A9762FC23E12CE2003A89A7 /* SceneDelegate.swift in Sources */,
+				3A97631223E12EEE003A89A7 /* ColorsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
