@@ -17,7 +17,7 @@ class ColorsTableViewController: UITableViewController {
         MyColor(name: "Green", color: .green),
         MyColor(name: "Blue", color: .blue),
         MyColor(name: "Indigo", color: .cyan),
-        MyColor(name: "Violet", color: .purple)
+        MyColor(name: "Violet", color: .purple),
         MyColor(name: "Gray", color: .gray)
     ]
 
